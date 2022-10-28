@@ -1,0 +1,9 @@
+[snowflake]
+url = https://app.snowflake.com/us-west-2/123abc
+account= 123abc
+user= user
+password= pass
+role= accountadmin
+warehouse= compute_wh
+database= demodb
+schema= udf_testing
