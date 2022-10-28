@@ -1,0 +1,22 @@
+Some helpfull commands for setting up the snowpark env
+
+
+
+https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments
+
+
+conda -n snowpark_env python=3.8
+
+conda activate snowpark_env
+
+conda install pip
+conda install ipykernel # or pip install ipykernel
+
+python -m ipykernel install --user --name snowpark_env --display-name "Python snowpark_env"
+
+conda install snowflake-snowpark-python pandas
+
+pip install jupyterlab
+
+pip install scalene
+
